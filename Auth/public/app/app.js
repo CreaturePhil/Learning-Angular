@@ -1,7 +1,7 @@
-angular.module('myApp', [])
+angular.module('myApp', ['appRoutes'])
 
-.controller('MainCtrl', [function() {
+.controller('MainCtrl', function() {
 	var vm = this;
 
 	vm.message = 'Hello World!';
-}]);
+});
