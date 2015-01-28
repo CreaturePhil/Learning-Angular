@@ -1,0 +1,7 @@
+<h1>Login Page</h1>
+<h1 ng-if="login.error" ng-bind="login.error"></h1>
+<form ng-submit="login.login()">
+  <input type="text" placeholder="Username" ng-model="login.data.username"> 
+  <input type="text" placeholder="Password" ng-model="login.data.password"> 
+  <input type="submit" value="Login"> 
+</form>

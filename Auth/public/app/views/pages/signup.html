@@ -1,0 +1,7 @@
+<h1>Signup Page</h1>
+<h1 ng-if="signup.error" ng-bind="signup.error"></h1>
+<form ng-submit="signup.signup()">
+  <input type="text" placeholder="Username" ng-model="signup.data.username"> 
+  <input type="text" placeholder="Password" ng-model="signup.data.password"> 
+  <input type="submit" value="Signup"> 
+</form>
